@@ -26,10 +26,6 @@ post '/named-cat' do
 end
 
 get '/cat-form' do
-  # <form action = "/named-cat">
-  # <input type = 'text' name = 'name'>
-  # <input type = 'submit' value = 'Submit'>
-  # </form>
   erb(:cat_form)
 end
 
